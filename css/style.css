@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Smooch Sans',Arial, Helvetica, sans-serif;
+
+}
+@font-face {
+    font-family: 'Smooch Sans';
+    src: url('../fonts/SmoochSans-Regular.woff2') format('woff2'),
+        url('../fonts/SmoochSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Smooch Sans';
+    src: url('../fonts/SmoochSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/SmoochSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Smooch Sans';
+    src: url('../fonts/SmoochSans-Light.woff2') format('woff2'),
+        url('../fonts/SmoochSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+a {
+    color: #000;
+    transition: transform 0.3s ease
+}
+a:hover {
+    color: #007BFF;
+    transform: scale(1.1);
+}
+img {
+    transition: transform 0.3s ease
+}
+img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+
+
+.container {
+    
+}
+
+.bash_logo {
+font-size: 24px;
+}
+.bash_logo img {
+ width: 30px;
+}
+
+header #main  #container { 
+    display: flex;
+    
+
+    
+}
+
+header #main  #container .left { 
+    width: 300px;
+    padding: 26px 0px 320px 15px;
+    
+    display: none;
+}
+
+
+header #main  #container .left h1 { 
+    font-size: 24px;
+}
+
+header #main  #container .left h1 img { 
+    width: 30px;
+}
+
+header #main  #container .left .category { 
+    font-size: 19px;
+    padding-top: 41px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+header #main  #container .left .category li { 
+    padding-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header #main  #container .left .category li img { 
+    width: 19px;
+}
+
+
+    
+    
+
+.category li input {
+    width: 193px;
+    padding: 7px 0;
+    padding-left: 32px;
+    border-radius: 6px;
+    background-image: url(../image/bx-search-alt-2.svg);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 4px 4px;
+    font-size: 18px;
+    
+}
+header #main  #container .top form label #input { 
+    width: 233px;
+    padding: 7px 0;
+    padding-left: 32px;
+    border-radius: 6px;
+    background-image: url(../image/bx-search-alt-2.svg);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 4px 4px;
+    font-size: 18px;
+    
+    
+}
+input:focus {
+    outline: none;
+    border: 1px solid #007BFF;
+}
+input:hover {
+    border-color: #007BFF; 
+    background-color: #f0f8ff
+}
+input::placeholder {
+    
+    
+}
+#right{
+    width: 100%;
+}
+.top { 
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 15px;
+    box-shadow: 0px 15px 10px -15px grey; 
+
+}
+.top .side { 
+    display: flex;
+        align-items: center;
+}
+
+ .top .side li { 
+    display: flex;
+    align-items: center;
+
+}
+.bell {
+    width: 16px;
+        padding-right: 13px;
+}
+.arrow {
+    width: 16px;
+}
+img.profile {
+    width: 36px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+header #main  #container .top .side li a {
+    padding-right: 8px;
+    font-size: 20px;
+}
+#middle {
+    width: 84%;
+    background-image: url(../image/waste.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.texts {
+    color: whitesmoke;
+    padding: 160px;
+    padding-bottom: 577px;
+
+}
+.texts h1 {
+
+}
+.texts h2 {
+
+}
+.texts p {
+
+    font-size: 38px;
+    color: black;
+    background: aliceblue;
+    display: inline-block;
+    padding-left: 10px;
+
+}
+.texts a {
+    display: inline-flex;
+    padding: 9px 5px 9px 18px;
+    background-color: #007BFF;
+    
+    width: 100px;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+.rel {
+    display: flex;
+    flex-direction: column;
+    font-size: 56px;
+    color: black;
+    background: aliceblue;
+    width: 567px;
+    padding-left: 10px;
+
+}
+div.tuff {
+    display: inline-flex;
+    flex-direction: column;
+    
+   
+}
+h1:hover {
+    color: #007BFF;;
+
+}
+h2:hover {
+    color: #007BFF;;
+
+}
+
+
+p:hover {
+    color: #007BFF;;
+
+}
+
+
+ /* @media all and (max-width: 768px) and (min-width: 481px) {
+    
+ } */
